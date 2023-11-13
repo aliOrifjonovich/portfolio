@@ -25,12 +25,10 @@ export function Footer() {
               Ready to get started on your <br /> next big project?
             </h1>
             <div className={styles.medias__wrapper}>
-              <Link href="/">
                 <div className={styles.medias__wrapper__box}>
                   <EmailIcon />
                   orifjonovichalisher@gmail.com
                 </div>
-              </Link>
               <Link href="/https://t.me/Alisher_Gulomov_Blog">
                 <div className={styles.medias__wrapper__box}>
                   <TelegramIcon />

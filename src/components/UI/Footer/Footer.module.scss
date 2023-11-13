@@ -99,13 +99,9 @@
 
       .medias__wrapper {
         display: flex;
-        flex-direction: column;
+        flex-direction: column !important;
         width: 100%;
-        border: 2px solid red;
 
-        &__box {
-          border: 2px solid red;
-        }
       }
     }
   }

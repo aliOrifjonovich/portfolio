@@ -48,9 +48,9 @@ export const config = {
     {
       id: "1",
       logo: "Union",
-      name: "product 1",
+      name: "Zuzu app",
       subtitle: "lokhfasdf kjsdfi fkjsdfiue dnsdufhi",
-      action: "Proccessing",
+      action: "Done",
       data: "April 2023 - May 2023",
       img: "/images/project_6.png",
       description:
@@ -61,8 +61,8 @@ export const config = {
     },
     {
       id: "2",
-      logo: "Union",
-      name: "product 2",
+      logo: "Weather app",
+      name: "Weather app",
       subtitle: "lokhfasdf kjsdfi fkjsdfiue dnsdufhi",
       action: "Done",
       data: "April 2023 - May 2023",
@@ -75,10 +75,10 @@ export const config = {
     },
     {
       id: "3",
-      logo: "Union",
-      name: "product 3",
+      logo: "Constrution.com",
+      name: "Todo React app",
       subtitle: "lokhfasdf kjsdfi fkjsdfiue dnsdufhi",
-      action: "Proccessing",
+      action: "Done",
       data: "April 2023 - May 2023",
       img: "/images/3.png",
       description:
@@ -90,9 +90,9 @@ export const config = {
     {
       id: "4",
       logo: "Union",
-      name: "product 4",
+      name: "Contruction.com",
       subtitle: "lokhfasdf kjsdfi fkjsdfiue dnsdufhi",
-      action: "Proccessing",
+      action: "Done",
       data: "April 2023 - May 2023",
       img: "/images/project_5.png",
       description:
@@ -103,9 +103,9 @@ export const config = {
     },
 
     {
-      id: "6",
+      id: "5",
       logo: "Union",
-      name: "product 6",
+      name: "Union E-commerce",
       subtitle: "lokhfasdf kjsdfi fkjsdfiue dnsdufhi",
       action: "Proccessing",
       data: "April 2023 - present",
