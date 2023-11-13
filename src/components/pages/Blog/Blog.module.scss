@@ -1,0 +1,29 @@
+.blog {
+  position: relative;
+  margin-top: 50px;
+  height: 50vh;
+
+  &__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 6em;
+    letter-spacing: 15px;
+    color: #ffffff;
+    cursor: pointer;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background-image:linear-gradient(#fff, #fff) ;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -750px, 0;
+    animation: backcolor 5s linear infinite alternate;
+  }
+
+  @keyframes backcolor {
+    100%{
+        background-position: 0, 0;
+    }
+  }
+}

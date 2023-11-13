@@ -1,0 +1,10 @@
+@import "@/styles/unit.scss";
+
+.arrow {
+  @include align-items-center;
+  transition: all 0.4s ease-in-out;
+
+  &__active {
+    transform: rotate(-180deg);
+  }
+}

@@ -1,0 +1,39 @@
+@import 'styles/unit.scss';
+.header {
+  background-color: transparent;
+  height: rem(80);
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out .2s;
+
+    .navbar_wrapper{
+      @include align-items-center;
+      gap: rem(14);
+      border: 2px solid transparent;
+      padding: 20px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius:20px;
+    }
+    
+    .scrolling{
+      background-color: #121212; 
+      box-shadow: -2px 5px 8px 2px rgba(242, 244, 246, 0.06);
+      border-color: #3B3B3B;
+      transition: all ease-out .7s;
+
+    }
+  }
+  @media (width < 500px) {
+    width: 100%;
+  }
+}

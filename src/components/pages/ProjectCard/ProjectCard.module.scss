@@ -1,0 +1,198 @@
+@import "styles/unit.scss";
+
+.card {
+  border: 2px solid transparent;
+  border-radius: 30px;
+  padding: rem(60px);
+  margin-top: rem(30px);
+  background-color: #202020;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  position: relative;
+
+  &__logo_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__product_logo {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 5px;
+  }
+
+  &__technologies {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    .technology {
+      padding: 10px 20px;
+      font-size: 17px;
+      font-weight: 500;
+      color: #fff;
+      letter-spacing: 2px;
+    }
+
+    .productType {
+      border: 2px solid #00a795;
+      border-radius: 10px;
+      font-size: 20px;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: 2px;
+      padding: 10px 20px;
+    }
+  }
+
+  .name_of_product {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: #151517;
+
+    .name_content {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      h1 {
+        font-size: 30px;
+        color: #fff;
+        letter-spacing: 2px;
+        text-transform: capitalize;
+      }
+
+      p {
+        font-size: 20px;
+        color: #00a795;
+      }
+    }
+    .btn {
+      max-width: 188px;
+      width: 100%;
+      border: #00a795 2px solid;
+      font-size: 20px !important;
+      color: "#fff";
+      transition: all 0.5s ease-in-out;
+      color: #fff;
+
+      &:hover {
+        background-color: #00a795;
+      }
+    }
+  }
+
+  .infos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-top: 2px solid var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+
+    .img_wrapper {
+      max-width: 100%;
+      height: auto;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.2s;
+
+        &:hover {
+          transform: scale(1.5);
+        }
+      }
+    }
+
+    p {
+      font-size: 18px;
+      color: #fff;
+      line-height: 30px;
+    }
+  }
+
+  .watchesIcon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    .iconContent {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      align-items: center;
+      font-size: 30px;
+      color: #fff;
+
+      span {
+        border: 2px solid #2b2b2c;
+        padding: 20px 30px;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+          border-color: #00a795;
+        }
+      }
+    }
+
+    .statistic {
+      display: flex;
+      flex-direction: row;
+      gap: 15px;
+
+      .box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        border: 2px solid #00a795;
+        padding: 10px 20px;
+        border-radius: 10px;
+        color: #fff;
+      }
+    }
+  }
+
+  @media (width < 600px) {
+    padding: rem(30px);
+
+    &__logo_wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+    &__technologies {
+      display: flex;
+      gap: 2px;
+
+      .technology {
+        padding: 5px 10px;
+      }
+      .productType {
+        padding: 5px 10px;
+      }
+    }
+
+    .name_of_product {
+      padding: 20px;
+
+      .name_content {
+        h1 {
+          font-size: 25px;
+        }
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

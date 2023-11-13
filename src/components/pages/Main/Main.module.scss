@@ -1,0 +1,15 @@
+@import "styles/unit.scss";
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: rem(150px);
+
+    @media (width < 1000px ){
+        gap: rem(50px);
+    }
+
+    @media (width < 500px) {
+        gap: rem(20px);
+    }
+}

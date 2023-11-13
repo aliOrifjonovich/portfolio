@@ -1,0 +1,64 @@
+@import "styles/unit.scss";
+.navbar {
+  width: 100%;
+  ul {
+    @include align-items-center;
+    gap: rem(24);
+    padding: 0 20px;
+    li{
+      padding: 8px 14px;
+      cursor: pointer;
+      transition: all ease-in-out .2s;
+      border: 2px solid transparent;
+      color: var(--text-color);
+
+
+      &:hover{
+        border-radius: 8px;
+        border-color: var(--secondary-color);
+        transition: all ease-in-out .2s;
+
+      }
+    }
+    .active{
+      border-radius: 8px;
+      border: 1px solid var(--secondary-color);
+      box-shadow: -1px 4px 6px 1px rgba(242, 244, 246, 0.06);
+    }
+    a {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+    .gradient-0{
+      background-image: linear-gradient(to right, #0b75ac, #0071c0, #006bd3, #0062e1, #1254eb);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .gradient-1{
+      background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .gradient-2{
+      background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .gradient-3{
+      background-image: linear-gradient(to right, #051937, #0a4066, #006c96, #009cc3, #12cfeb);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    & li:last-child{
+      background: var(--gradient-01, linear-gradient(90deg, #FFE074 0.85%, #50CAE4 52.93%, #9B5CFF 100.85%));
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}
