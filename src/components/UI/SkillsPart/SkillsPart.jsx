@@ -57,7 +57,6 @@ const SkillsPart = () => {
   };
   const width1000px = useMediaQuery("(min-width:1000px)");
 
-  //   const container = document.querySelector('.tagcloud');
   //   let radii;
 
   //   return () => {

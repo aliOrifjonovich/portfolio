@@ -53,7 +53,7 @@ const Projects = () => {
                     <p>{item.description}</p>
                   </div>
                   <MainButton
-                    text={"Read case study"}
+                    text={"Read More"}
                     variant={"contained"}
                     className={styles.btn}
                     onClick={() => push(`/work/${item.id}`)}

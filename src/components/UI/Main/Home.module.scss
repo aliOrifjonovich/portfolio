@@ -9,7 +9,7 @@
   &__contents {
     @include element-center;
     flex-direction: column;
-    gap: 48px;
+    gap: 35px;
 
     &__content {
       @include element-center;
@@ -313,8 +313,8 @@
       & .mouse {
         position: relative;
         display: block;
-        width: 35px;
-        height: 55px;
+        width: 30px;
+        height: 50px;
         margin: 0 auto 20px;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;

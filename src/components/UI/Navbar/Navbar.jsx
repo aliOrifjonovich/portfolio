@@ -21,7 +21,8 @@ const Navbar = () => {
           <Link href={item.link}>
             <li
               className={`${
-                router.asPath === item.link
+                 
+                router.pathname ==item.link
                   ? `${styles.active} ${styles[`gradient-${index}`]}`
                   : ""
               }`}
