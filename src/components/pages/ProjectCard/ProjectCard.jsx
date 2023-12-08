@@ -22,6 +22,11 @@ const ProjectCard = () => {
     }
   };
 
+  const newWindowTabLink=(item)=>{
+      window.open(item, '_blank');
+  }
+  
+
   return (
     <Container>
       {data.map((item) => (
@@ -40,13 +45,14 @@ const ProjectCard = () => {
           <div className={styles.name_of_product}>
             <div className={styles.name_content}>
               <h1>{item.name}</h1>
-              <p>{item.subtitle}</p>
+              <p>{item.description}</p>
             </div>
             <MainButton
               text={"Go to the site"}
               variant={"noHovered"}
               icon={<ArrowIcon />}
               className={styles.btn}
+              onClick={newWindowTabLink(item.link)}
             />
           </div>
           <div className={styles.infos}>
