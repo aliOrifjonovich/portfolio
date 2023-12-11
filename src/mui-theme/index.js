@@ -56,22 +56,18 @@ export default createTheme({
 
           },
         },
-        noHovered: {
-          "&:hover": {
-            svg:{
-              display:"flex"
-            }
-          },
-        },
         outlined: {
-          color: "#121212",
-          background: "#FAFAFA",
+          display: "flex",
           padding: `${rem(16)} ${rem(40)}`,
-          border: "2px solid transparent",
+          maxWidth:" 188px",
+          width: "100%",
+          border: "#00a795 2px solid",
+          fontSize: "20px !important",
+          color: "#fff",
+          transition: "all 0.5s ease-in-out",
           "&:hover": {
-            color: "#FAFAFA",
-            background: "#121212",
-            border: "2px solid #3B3B3B",
+            backgroundColor:" #00a795"
+           
           },
         },
         contained: {

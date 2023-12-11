@@ -4,12 +4,12 @@ import { Container } from "@mui/material";
 import MainButton from "../MainButton/MainButton";
 import {
   EmailIcon,
+  GitHubIcon,
   InstagramIcon,
   LinkedinIcon,
   TelegramIcon,
 } from "components/Icons";
 import AOS from 'aos';
-import 'aos/dist/aos.css';
 import { useRouter } from "next/router";
 
 
@@ -29,6 +29,11 @@ export function Footer() {
                   <EmailIcon />
                   orifjonovichalisher@gmail.com
                 </div>
+              <Link href="https://github.com/aliOrifjonovich">
+                <div className={styles.medias__wrapper__box}>
+                  <GitHubIcon/>
+                </div>
+              </Link>
               <Link href="/https://t.me/Alisher_Gulomov_Blog">
                 <div className={styles.medias__wrapper__box}>
                   <TelegramIcon />

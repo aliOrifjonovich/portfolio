@@ -32,8 +32,11 @@ const ProjectCards = () => {
                     }`}
                   >
                     {elem.action}
+                    {console.log("action", elem.action)}
                   </span>
+                  <div className={styles.img_wrapper}>
                   <img src={elem.img} alt="_" />
+                  </div>
                   <p>{elem.name}</p>
                 </div>
               ))}

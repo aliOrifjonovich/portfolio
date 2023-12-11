@@ -7,10 +7,12 @@ import { useRouter } from "next/router";
 import config from "utils/data";
 
 const ProjectCard = () => {
+  
   const router = useRouter();
   const [likeCount, setLikeCount] = useState(0);
   const [active, setActive] = useState("");
   const data = config.projects.filter((item) => item.id === router.query.id);
+
 
   const increamentDecreament = () => {
     if (!active) {
@@ -22,8 +24,9 @@ const ProjectCard = () => {
     }
   };
 
-  const newWindowTabLink=(item)=>{
-      window.open(item, '_blank');
+  const newWindowTabLink=(link)=>{
+    console.log("cliked");
+    typeof window != "undefined" && window.open(link, '_blank');
   }
   
 
@@ -45,14 +48,14 @@ const ProjectCard = () => {
           <div className={styles.name_of_product}>
             <div className={styles.name_content}>
               <h1>{item.name}</h1>
-              <p>{item.description}</p>
+              <p>{item.subtitle}</p>
             </div>
             <MainButton
               text={"Go to the site"}
-              variant={"noHovered"}
+              variant={"contained"}
               icon={<ArrowIcon />}
               className={styles.btn}
-              onClick={newWindowTabLink(item.link)}
+              onClick={()=>newWindowTabLink(item.link)}
             />
           </div>
           <div className={styles.infos}>

@@ -1,4 +1,3 @@
-import { TypeAnimation } from "react-type-animation";
 import styles from "./Main.module.scss";
 import { Container } from "@mui/material";
 import Home from "components/UI/Main/Home";
