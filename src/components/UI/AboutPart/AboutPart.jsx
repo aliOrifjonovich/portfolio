@@ -32,7 +32,7 @@ const AboutPart = () => {
                   0<span>1</span>
                 </h1>
                 <h2>
-                  H<span>ello,</span>
+                  A<span>bout me,</span>
                 </h2>
                 <p>
                   I am <span>Alisher.</span> <br /> Highly passoinate front-end
@@ -57,7 +57,7 @@ const AboutPart = () => {
                   E<span>xperience</span>
                 </h2>
                 <p>
-                  <span>8 month of experience.</span>
+                  <span>1 year of experience.</span>
                   <br />I have approximately 1 years of experience in developing
                   highly responsive frontend of websites using React.js and
                   Next.js
@@ -85,9 +85,6 @@ const AboutPart = () => {
                 </p>
                 <ul>
                   <li>
-                    <span>Udevs.io</span> - Front-end Developer{" "}
-                  </li>
-                  <li>
                     <span>Itransition</span> - Front-end Developer{" "}
                   </li>
                 </ul>
@@ -107,10 +104,10 @@ const AboutPart = () => {
                   0<span>4</span>
                 </h1>
                 <h2>
-                  E<span>ngineering</span>
+                  G<span>raduation</span>
                 </h2>
                 <p>
-                  <span>College Name </span>
+                  <span>Wesminster International University in Tashkent (WIUT) </span>
                   <br />
                   Information about my experience and knowledge
                   in the field of IT and where I have studied at

@@ -7,41 +7,15 @@ import 'aos/dist/aos.css';
 const Intern = () => {
     const data = [
             {
-              companyName: 'Company Name',
+              companyName: 'ITransition,',
               role: 'Front-end Developer',
               introText: '',
-              duration: '29/03/2022 - 29/05/2022',
-              keyPointOne: 'Built front-end of multiple website using ReactJS',
-              keyPointTwo:
-                'Add few lines here....',
-              keyPointThree: 'Add few lines here... if requried Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptas dolo Perspiciatis voluptas do.',
-              keyPointFour:
-                'Add few lines here... if requried Lorem, ipsum dolor sit amet consectetur adipisicing architecto molestiae.',
-              offsetValue: '0',
-            },
-            {
-              companyName: 'Company Name',
-              role: 'Front-end Developer',
-              introText: '',
-              duration: '14/06/2021 - 14/07/2021',
-              keyPointOne: 'Built front-end of multiple website using ReactJS.',
-              keyPointTwo: 'Add few lines here... if requried',
-              keyPointThree:
-                'Add few lines here... if requried',
-              keyPointFour:
-                'Add few lines here... if requried Lorem, ipsum dolor sit amet consectetur adipisicing cto molestiae.',
-              offsetValue: '-1000',
-            },
-            {
-              companyName: 'Company Name',
-              role: 'Front-end Developer',
-              introText: '',
-              duration: '10/09/2020 - 10/11/2020',
+              duration: ' Nov 2022 – Jan 2023',
               keyPointOne:
-                'Add few lines here... if requried',
-              keyPointTwo: 'Add few lines here... if requried',
-              keyPointThree: 'Add few lines here... if requried',
-              keyPointFour: '',
+                '    • Collaborated with the front-end development team to design and maintain responsive user interfaces for various web applications.',
+              keyPointTwo: ' • Conducted comprehensive bug testing and troubleshooting, effectively identifying and resolving front-end issues to enhance overall user experience.',
+              keyPointThree: '• Expanded proficiency in HTML, CSS, and JavaScript through hands-on experience and continuous learning efforts. ',
+              keyPointFour: ' • Acquired invaluable insights into the web development landscape, cultivating enhanced teamwork and communication skills by actively engaging with cross-functional teams under the mentorship of seasoned developers.',
               offsetValue: '-1000',
             },
     ]

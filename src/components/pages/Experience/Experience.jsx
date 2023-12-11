@@ -18,42 +18,50 @@ const Experience = () => {
           <div className={styles.experience__description}>
             <div className={styles.experience__main_box}>
               <div className={styles.experience__box}>
-                <h2>XYZ Pvt Ltd</h2>
+                <h2>Freelancer, Remote</h2>
                 <h3>
                   <CalendarIcon
                     fill={"#00ffff"}
                     className={styles.experience__calendar}
                   />
-                  &nbsp; &nbsp;01/06/2022 - PRESENT
+                  &nbsp; &nbsp; August 2023 - present
                 </h3>
                 <ul>
                   <p>Responsible for -</p>
                   <li data-aos="fade-right" data-aos-delay="200">
                     <span>
-                      Developing multiple highly responsive and adaptive website
-                      using React and Vue
+                    • Developed responsive and visually appealing web applications using React.js, Next.js, and TypeScript.
                     </span>
                   </li>
                   <li data-aos="fade-right" data-aos-delay="400">
-                    <span>Developing new user-facing features</span>
+                    <span> • Collaborated closely with clients to understand project requirements, ensuring timely delivery of high-quality solutions aligned with their needs. </span>
                   </li>
                   <li data-aos="fade-right" data-aos-delay="600">
-                    <span>Building reusable code</span>
+                    <span>
+                    • Implemented user interface components and functionalities to enhance user experience and optimize performance. 
+                    </span>
                   </li>
                   <li data-aos="fade-right" data-aos-delay="800">
-                    <span>Add few more lines...</span>
+                    <span>
+                    • Utilized version control systems such as Git for efficient project management and code collaboration.
+                    </span>
+                  </li>
+                  <li data-aos="fade-right" data-aos-delay="900">
+                  <span>
+                    • Actively stayed updated with industry trends and emerging technologies, integrating new tools and techniques to improve project efficiency and quality.
+                    </span>
                   </li>
                 </ul>
               </div>
 
               <div className={styles.experience__box}>
-                <h2>XYZ Pvt Ltd</h2>
+                <h2>Front-End Developer Assistant at Udevs</h2>
                 <h3>
                 <CalendarIcon
                     fill={"#00ffff"}
                     className={styles.experience__calendar}
                   />
-                  &nbsp; &nbsp;01/06/2022 - PRESENT
+                  &nbsp; &nbsp; May 2023 – August 2023
                 </h3>
                 <ul>
                   <p>Responsible for -</p>
@@ -62,9 +70,8 @@ const Experience = () => {
                     data-aos-delay="200"
                     data-aos-offset="-5000"
                   >
-                    <span>
-                      Developing multiple highly responsive and adaptive website
-                      using React and Vue
+                   <span>
+                    • Contributed as a Front-end Developer Assistant at Udevs, gaining hands-on experience with contemporary front-end technologies. 
                     </span>
                   </li>
                   <li
@@ -72,21 +79,23 @@ const Experience = () => {
                     data-aos-delay="400"
                     data-aos-offset="-5000"
                   >
-                    <span>Developing new user-facing features</span>
+                    <span>
+                    • Acquired proficiency in developing dynamic, responsive web applications utilizing Next.js, an advanced React framework with React Hook Forms renowned for its efficiency and SEO-friendly web pages.
+                    </span>
                   </li>
                   <li
                     data-aos="fade-right"
                     data-aos-delay="600"
                     data-aos-offset="-5000"
                   >
-                    <span>Building reusable code</span>
+                    <span>• Acquired practical expertise in version control systems such as Git and GitHub for proficient code management and tracking. Additionally, proficiently engaged with Gitlab within the Udevs company environment. </span>
                   </li>
                   <li
                     data-aos="fade-right"
                     data-aos-delay="800"
                     data-aos-offset="-5000"
                   >
-                    <span>Add few more lines...</span>
+                   <span>•  Strengthened problem-solving abilities and communication skills through this experience.</span>
                   </li>
                 </ul>
               </div>
