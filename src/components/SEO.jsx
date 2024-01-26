@@ -9,10 +9,10 @@ export default function SEO({ title }) {
         content='width=device-width, initial-scale=1  maximum-scale=1, user-scalable=0'
       />
       <meta charSet='utf-8' />
-      <title>{title || 'Next js template'}</title>
+      <title>{title || 'Alisher Gulomov'}</title>
       <meta
         name='description'
-        content='Next js template — это коворкинг в г. Ташкент, основанный с целью создать атмосферу, максимально подходящую не только для работы, но и отдыха. Next js template коворкинг-центр позволяет стартаперам, фрилансерам и руководителям небольших компаний экономить на аренде офиса.'
+        content='Alisher Gulomov — это коворкинг в г. Ташкент, основанный с целью создать атмосферу, максимально подходящую не только для работы, но и отдыха. Alisher Gulomov коворкинг-центр позволяет стартаперам, фрилансерам и руководителям небольших компаний экономить на аренде офиса.'
       />
       <meta
         name='keywords'
@@ -21,17 +21,17 @@ export default function SEO({ title }) {
       <meta property='og:type' content='website' />
       <meta
         property='og:title'
-        content={title || 'Next js template'}
+        content={title || 'Alisher Gulomov'}
         key='ogtitle'
       />
       <meta
         property='og:description'
-        content='Next js template — это коворкинг в г. Ташкент, основанный с целью создать атмосферу, максимально подходящую не только для работы, но и отдыха. Next js template коворкинг-центр позволяет стартаперам, фрилансерам и руководителям небольших компаний экономить на аренде офиса.'
+        content='Alisher Gulomov — это коворкинг в г. Ташкент, основанный с целью создать атмосферу, максимально подходящую не только для работы, но и отдыха. Alisher Gulomov коворкинг-центр позволяет стартаперам, фрилансерам и руководителям небольших компаний экономить на аренде офиса.'
         key='ogdesc'
       />
       <meta
         property='og:site_name'
-        content={title || 'Next js template'}
+        content={title || 'Alisher Gulomov'}
         key='ogsitename'
       />
       <meta
@@ -40,12 +40,12 @@ export default function SEO({ title }) {
         key='ogimage'
       />
       <meta name='twitter:card' content='summary' />
-      <meta name='twitter:title' content={title || 'Next js template'} />
+      <meta name='twitter:title' content={title || 'Alisher Gulomov'} />
       <meta
         name='twitter:description'
-        content='Next js template — это коворкинг в г. Ташкент, основанный с целью создать атмосферу, максимально подходящую не только для работы, но и отдыха. Next js template коворкинг-центр позволяет стартаперам, фрилансерам и руководителям небольших компаний экономить на аренде офиса.'
+        content='Alisher Gulomov — это коворкинг в г. Ташкент, основанный с целью создать атмосферу, максимально подходящую не только для работы, но и отдыха. Alisher Gulomov коворкинг-центр позволяет стартаперам, фрилансерам и руководителям небольших компаний экономить на аренде офиса.'
       />
-      <meta name='twitter:site' content={title || 'Next js template'} />
+      <meta name='twitter:site' content={title || 'Alisher Gulomov'} />
       <meta name='twitter:creator' content='Udevs' />
       <meta
         name='twitter:image'
