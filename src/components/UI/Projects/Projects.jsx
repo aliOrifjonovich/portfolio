@@ -13,6 +13,7 @@ const Projects = () => {
   const width1000px = useMediaQuery("(max-width:1000px)");
   const { push } = useRouter();
   const sliceData = config.projects.slice(0, 3);
+  const wordcount = width1000px ? 15 : 80
 
   return (
     <Container>
@@ -50,7 +51,7 @@ const Projects = () => {
                   <div className={styles.box__content__wrapper}>
                     <h1 className={styles.title}>{item.name}</h1>
                     <span className={styles.date}>{item.data}</span>
-                    <p>{item.description}</p>
+                    <p>{item.description.split(" ").splice(0, wordcount).join(" ")} ...</p>
                   </div>
                   <MainButton
                     text={"Read More"}
