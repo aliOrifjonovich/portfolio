@@ -106,11 +106,11 @@ export const config = {
       id: "7",
       logo: "Meraki Digital MArketing Agency",
       name: "Meraki",
-      link:"https://todos-app-react1.netlify.app/",
+      link:"https://meraki-front.onrender.com/",
       subtitle: "It is corparate website",
       action: "Done",
       data: "May 2024 - August 2024",
-      img: "/images/3.png",
+      img: "/images/meraki.png",
       description:
         "The website is help to company sharing about company like their jobs and collecting users data in admin panel for clients.",
       technologies: ["React.js", "React-Hook-Form", "SCSS"],
@@ -125,7 +125,7 @@ export const config = {
       subtitle: "Gaming E-commerce website",
       action: "Proccessing",
       data: "April 2023 - May 2023",
-      img: "/images/3.png",
+      img: "/images/image.png",
       description:
         "Proccessing",
       technologies: ["React.js", "React-Hook-Form", "SCSS"],
