@@ -35,7 +35,7 @@ const ProjectCards = () => {
                     {console.log("action", elem.action)}
                   </span>
                   <div className={styles.img_wrapper}>
-                  <img src={elem.img} alt="_" />
+                    <img src={elem.img} alt="_" />
                   </div>
                   <p>{elem.name}</p>
                 </div>
