@@ -120,6 +120,11 @@
           height: 200px;
           margin-right: rem(5);
         }
+        @media (max-width: 500px) {
+          width: 200px;
+          height: 100px;
+          margin-right: rem(5);
+        }
       }
     }
   }

@@ -57,44 +57,6 @@ const SkillsPart = () => {
   };
   const width1000px = useMediaQuery("(min-width:1000px)");
 
-  //   let radii;
-
-  //   return () => {
-  //     const texts = [
-  //       'HTML',
-  //       'CSS',
-  //       'SASS',
-  //       'JavaScript',
-  //       'React',
-  //       'Vue',
-  //       'Nuxt',
-  //       'NodeJS',
-  //       'Shopify',
-  //       'Jquery',
-  //       'ES6',
-  //       'GIT',
-  //       'GITHUB',
-  //     ];
-
-  //     function radiusValue() {
-  //       if (window.screen.width <= 778) {
-  //         radii = 150;
-  //       } else {
-  //         radii = 290;
-  //       }
-  //       return radii;
-  //     }
-
-  //     const options = {
-  //       radius: radiusValue(),
-  //       maxSpeed: 'normal',
-  //       initSpeed: 'normal',
-  //       keep: true,
-  //     };
-
-  //     TagCloud(container, texts, options);
-  //   }
-  // }, []);
   return (
     <>
       <div className={styles.skill}>
@@ -123,7 +85,7 @@ const SkillsPart = () => {
               gradientColor={[255, 255, 255]}
             >
               {data?.root1?.map((el, index) => (
-                <div className={styles.marquee__item}>
+                <div className={styles.marquee__item} key={index}>
                   <img src={el.image} alt="university" />
                 </div>
               ))}
@@ -139,7 +101,7 @@ const SkillsPart = () => {
               gradientColor={[255, 255, 255]}
             >
               {data?.root2?.map((el, index) => (
-                <div className={styles.marquee__item}>
+                <div className={styles.marquee__item} key={index}>
                   <img src={el.image} alt="university" />
                 </div>
               ))}
